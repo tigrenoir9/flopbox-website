@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="FLOPBOX — une interface simple pour la maison connectée. Découvrez le projet et inscrivez-vous pour être informé du lancement.">
+  <title>FLOPBOX — Votre maison connectée, simplement</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="FLOPBOX, accueil"><span class="brand-mark">◆</span><span>FLOP<span class="accent">BOX</span><small>SMART HOME</small></span></a>
+      <button class="menu-button" type="button" aria-controls="navlinks" aria-expanded="false" aria-label="Afficher le menu">☰</button>
+      <div class="navlinks" id="navlinks"><a href="#solution">La solution</a><a href="#fonctionnalites">Fonctionnalités</a><a href="#faq">FAQ</a><a class="btn btn-small" href="#inscription">Accès anticipé</a></div>
+    </nav>
+  </header>
+  <main id="contenu">
+    <section class="hero container" id="accueil">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span> PROTOTYPE EN DÉVELOPPEMENT</span>
+        <h1>Votre maison connectée.<br><span class="gradient-text">Sans complications.</span></h1>
+        <p class="lead">Éclairages, prises, capteurs et scénarios dans une seule interface. FLOPBOX explore une domotique plus simple, locale et évolutive.</p>
+        <div class="hero-actions"><a class="btn" href="#inscription">Être informé du lancement <span aria-hidden="true">↗</span></a><a class="btn btn-ghost" href="#solution">Découvrir FLOPBOX</a></div>
+        <div class="hero-note">Inscription gratuite · Sans engagement · Aucun paiement demandé</div>
+      </div>
+      <div class="preview-wrap" aria-label="Aperçu illustratif du tableau de bord FLOPBOX">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="dashboard-preview">
+          <div class="preview-sidebar"><div class="preview-logo">◆</div><div class="preview-nav selected">▦</div><div class="preview-nav">⌂</div><div class="preview-nav">⚡</div><div class="preview-nav">⚙</div></div>
+          <div class="preview-main"><div class="preview-top"><span>FLOPBOX <b>CONTROL</b></span><span class="status"><i></i> Maison</span></div><h2>Bienvenue chez vous.</h2><p>Votre maison, simplement.</p>
+            <div class="preview-stats"><div><small>Appareils</small><strong>◉</strong><span>Centralisés</span></div><div><small>Scénarios</small><strong>⚡</strong><span>Personnalisables</span></div></div>
+            <div class="preview-section">MES ESPACES</div><div class="preview-rooms"><div><span>☀</span><b>Salon</b><small>Éclairage</small></div><div><span>◈</span><b>Chambre</b><small>Capteurs</small></div><div><span>⌁</span><b>Cuisine</b><small>Prises</small></div></div>
+          </div>
+        </div>
+        <p class="preview-caption">Aperçu conceptuel de l'interface · Données fictives</p>
+      </div>
+    </section>
+    <section class="section section-surface" id="solution"><div class="container"><div class="section-heading"><span class="kicker">UNE MAISON, UNE INTERFACE</span><h2>Moins d'applications.<br>Plus de contrôle.</h2><p>FLOPBOX réunit plusieurs technologies domotiques dans un portail pensé pour les habitants, tandis que les services techniques restent en arrière-plan.</p></div>
+    <div class="benefits"><article class="feature"><div class="feature-icon">⌂</div><h3>Une interface unique</h3><p>Retrouvez les équipements de votre maison, organisés par pièce.</p></article><article class="feature"><div class="feature-icon">⚡</div><h3>Des scénarios pratiques</h3><p>Déclenchez des actions groupées depuis un seul espace.</p></article><article class="feature"><div class="feature-icon">◉</div><h3>Une solution évolutive</h3><p>Une base ouverte à plusieurs protocoles, avec des compatibilités à vérifier par appareil.</p></article></div></div></section>
+    <section class="section container" id="fonctionnalites"><div class="section-heading"><span class="kicker">LE PROJET FLOPBOX</span><h2>Conçu pour évoluer avec votre maison.</h2><p>Voici les fonctions du prototype et celles encore en validation.</p></div>
+      <div class="protocol-grid"><div class="protocol"><span class="protocol-icon">◈</span><div><strong>Zigbee</strong><small>Prototype fonctionnel</small></div><span class="chip ready">Intégré</span></div><div class="protocol"><span class="protocol-icon">⌁</span><div><strong>Wi-Fi / Ethernet</strong><small>Via les intégrations compatibles</small></div><span class="chip ready">Intégré</span></div><div class="protocol"><span class="protocol-icon">◇</span><div><strong>Matter</strong><small>Serveur installé, appairage à valider</small></div><span class="chip planned">En test</span></div><div class="protocol"><span class="protocol-icon">ᛒ</span><div><strong>Bluetooth</strong><small>Contrôleur détecté, appareils à tester</small></div><span class="chip planned">En test</span></div><div class="protocol"><span class="protocol-icon">⚙</span><div><strong>ESPHome</strong><small>Intégration en développement</small></div><span class="chip planned">À venir</span></div><div class="protocol"><span class="protocol-icon">◎</span><div><strong>Thread / Z-Wave</strong><small>Matériel complémentaire selon le protocole</small></div><span class="chip planned">À venir</span></div></div>
+    </section>
+    <section class="section section-surface"><div class="container split"><div><span class="kicker">UN PROJET TRANSPARENT</span><h2>Actuellement en développement.</h2><p>FLOPBOX est aujourd'hui un prototype opérationnel sur Raspberry Pi. Nous travaillons encore sur la compatibilité des appareils, les tests de fiabilité, la sécurité et la version matérielle finale.</p><p>Nous annoncerons les prix, les caractéristiques définitives et une date de disponibilité seulement lorsqu'ils seront établis.</p></div><div class="timeline"><div><span class="step-dot done"></span><div><strong>Prototype domotique</strong><p>Interface, Zigbee et scénarios de base</p></div></div><div><span class="step-dot progress"></span><div><strong>Tests et validation</strong><p>Matter, compatibilité, sécurité, sauvegardes</p></div></div><div><span class="step-dot"></span><div><strong>Bêta et lancement</strong><p>À annoncer après les essais</p></div></div></div></div></section>
+    <section class="section container" id="faq"><div class="section-heading"><span class="kicker">QUESTIONS FRÉQUENTES</span><h2>Ce qu'il faut savoir.</h2></div><div class="faq-list"><details><summary>FLOPBOX est-elle déjà disponible à l'achat ?</summary><p>Non. FLOPBOX est actuellement un prototype en développement. Vous pouvez demander à être informé du lancement.</p></details><details><summary>FLOPBOX sera-t-elle compatible avec tous les appareils ?</summary><p>Non, aucune compatibilité universelle n'est garantie. Les technologies et appareils pris en charge seront précisés après les tests.</p></details><details><summary>La maison pourra-t-elle fonctionner sans Internet ?</summary><p>L'objectif est de privilégier les fonctions locales. Certaines intégrations et fonctions distantes pourront nécessiter Internet.</p></details><details><summary>L'inscription est-elle une précommande ?</summary><p>Non. Il s'agit d'une simple demande d'information, gratuite et sans engagement d'achat.</p></details></div></section>
+    <section class="section container" id="inscription"><div class="signup-panel"><div><span class="kicker">RESTEZ INFORMÉ</span><h2>Faites partie des premiers informés.</h2><p>Recevez les actualités du projet et soyez averti lorsque les premiers tests utilisateurs seront ouverts.</p><div class="fine-print">Pour le moment, l'inscription se fait par email. Aucune donnée n'est enregistrée automatiquement par ce site.</div></div><div class="signup-action"><a class="btn btn-large" id="interest-link" href="mailto:contact@florian-pasquier.fr?subject=FLOPBOX%20-%20Liste%20d%27attente&body=Bonjour%2C%0AJe%20souhaite%20%C3%AAtre%20inform%C3%A9%20du%20lancement%20de%20FLOPBOX.%0A%0AMerci.">Demander à être informé ↗</a><small>Ouvre votre application de messagerie. L'adresse de contact est à confirmer avant publication.</small></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><div class="brand footer-brand"><span class="brand-mark">◆</span><span>FLOP<span class="accent">BOX</span><small>PROJET DOMOTIQUE</small></span></div><p>© <span id="year"></span> FLOPBOX · Projet en développement</p><a href="mailto:contact@florian-pasquier.fr">Contact</a></div><div class="container footer-legal">Avant lancement public, compléter les mentions légales et la politique de confidentialité selon l'entité éditrice et le traitement des données. FLOPBOX n'est pas actuellement proposé à la vente.</div></footer>
+</body>
+</html>
