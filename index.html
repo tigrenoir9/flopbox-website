@@ -1,17 +1,161 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#071321">
-<meta name="description" content="FLOPBOX : une seule box pour centraliser vos objets connectés, Zigbee, Z-Wave et autres équipements compatibles. Découvrez le projet et rejoignez la liste d'attente.">
-<title>FLOPBOX — Votre maison connectée, simplement</title>
-<link rel="stylesheet" href="styles.css"><script defer src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111e">
+  <title>FLOPBOX — Votre maison connectée</title>
+  <meta name="description" content="FLOPBOX, une box domotique simple, locale et évolutive pour centraliser vos objets connectés.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-<header class="site-header"><div class="header-inner"><a class="brand" href="#accueil" aria-label="FLOPBOX accueil"><span class="logo-mark">⌂</span><span><strong>FLOP<span>BOX</span></strong><small>SMART HOME</small></span></a><button class="mobile-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button><nav class="menu" aria-label="Navigation principale"><a class="active" href="#accueil">Accueil</a><a href="#box">La box</a><a href="#fonctions">Fonctionnalités</a><a href="#installation">Installation</a><a href="#faq">FAQ</a></nav><div class="header-actions"><a class="btn outline contact" href="mailto:contact@florian-pasquier.fr?subject=FLOPBOX%20-%20Contact">✉&nbsp; Contact</a><a class="btn primary" href="#attente">Rejoindre la liste d’attente</a></div></div></header>
-<main id="accueil"><section class="hero"><div class="hero-text"><div class="eyebrow">LA DOMOTIQUE SIMPLIFIÉE</div><h1>Votre maison connectée.<br>Une seule box : <em>FLOPBOX.</em></h1><p>Centralisez, automatisez et pilotez vos objets connectés depuis une interface unique, locale et évolutive.</p><div class="hero-actions"><a class="btn primary" href="#box">➤ &nbsp; Découvrir la box</a><a class="btn outline" href="#demonstration">▷ &nbsp; Voir la démo</a></div><div class="checks"><span>✓&nbsp; Simple à installer</span><span>✓&nbsp; Pensée pour fonctionner localement</span><span>✓&nbsp; Évolutive et maintenable</span></div></div><div class="hero-art"><img src="assets/hero-boitier.webp" alt="Rendu conceptuel du boîtier FLOPBOX noir compact avec LED turquoise"><div class="connection-inset"><img src="assets/connectique.webp" alt="Rendu des ports Ethernet et alimentation USB-C"><div><span>Alimentation<br>USB-C</span><span>Réseau<br>Ethernet (RJ45)</span></div></div></div></section>
-<section id="fonctions" class="features" aria-label="Fonctionnalités"><div class="feature"><span>♧</span><div><b>Éclairage</b><small>Contrôle et automatisation</small></div></div><div class="feature"><span>▤</span><div><b>Volets</b><small>Scénarios et horaires</small></div></div><div class="feature"><span>♨</span><div><b>Chauffage</b><small>Confort et économies</small></div></div><div class="feature"><span>⬡</span><div><b>Sécurité</b><small>Supervision et alertes</small></div></div><div class="feature"><span>♢</span><div><b>Énergie</b><small>Suivi selon équipements</small></div></div><div class="feature"><span>✣</span><div><b>Compatible</b><small>Zigbee, Z-Wave, Matter*</small></div></div></section>
-<section class="mid-grid" id="installation"><div class="panel install-panel"><h2><em>FLOPBOX</em> en 3 étapes</h2><div class="steps"><div class="step"><div class="step-head"><span class="number">1</span><div><h3>Branchez la box</h3><p>Alimentation USB-C et câble Ethernet.</p></div></div><img src="assets/installation.webp" alt="Câbles USB-C et Ethernet connectés au boîtier conceptuel"></div><div class="step"><div class="step-head"><span class="number">2</span><div><h3>Ajoutez vos appareils</h3><p>Zigbee, Z-Wave, Matter ou Wi-Fi, selon compatibilité.</p></div></div><div class="protocols">Ⓩ &nbsp;◉ &nbsp;✳ &nbsp;⌁</div></div><div class="step"><div class="step-head"><span class="number">3</span><div><h3>Pilotez votre maison</h3><p>Une seule interface pour vos équipements et scénarios.</p></div></div><div class="screen-icon">⌂<span>▯ &nbsp;▯</span></div></div></div></div><div class="dashboard-image" id="demonstration"><img src="assets/dashboard.webp" alt="Aperçu conceptuel du tableau de bord domotique FLOPBOX"><span class="image-note">Aperçu illustratif</span></div></section>
-<section class="bottom-grid"><div class="panel hardware" id="box"><img src="assets/interieur.webp" alt="Vue conceptuelle du Raspberry Pi et des radios intégrées à l'intérieur du boîtier"><div class="hardware-copy"><h2>Une technologie puissante,<br>dans un boîtier discret</h2><ul><li>Base Raspberry Pi</li><li>Radios Zigbee et Z-Wave prévues à l’intérieur</li><li>Logiciel domotique local</li><li>Maintenance distante autorisée</li><li>Sauvegardes et mises à jour</li></ul></div></div><div class="panel waiting" id="attente"><h2><span>✉</span> Soyez informé du lancement</h2><p>Rejoignez la liste d’intérêt et recevez les informations sur la disponibilité, les offres et les nouveautés FLOPBOX.</p><form id="interest-form" class="interest-form"><label for="email" class="sr-only">Votre adresse e-mail</label><input id="email" name="email" type="email" placeholder="✉  Votre adresse e-mail" required autocomplete="email"><button class="btn primary" type="submit">Je m'inscris</button></form><p class="privacy">♢ &nbsp; Inscription sans engagement. Aucun paiement demandé.</p><p class="form-message" role="status" aria-live="polite"></p></div></section>
-<section id="faq" class="faq"><h2>Questions fréquentes</h2><details><summary>FLOPBOX est-elle déjà disponible ?</summary><p>FLOPBOX est en cours de développement. Les visuels du boîtier et certaines interfaces sont des concepts ; les caractéristiques et délais définitifs ne sont pas encore annoncés.</p></details><details><summary>Faut-il une connexion Internet ?</summary><p>De nombreuses commandes et automatisations locales pourront fonctionner sans Internet. Les services cloud, certaines intégrations et la maintenance distante nécessiteront une connexion.</p></details><details><summary>Quels appareils seront compatibles ?</summary><p>Le prototype utilise Zigbee et des intégrations Wi-Fi, et expérimente Matter. La prise en charge de Z-Wave et d'autres protocoles est prévue ; la compatibilité sera confirmée modèle par modèle.</p></details><details><summary>Puis-je précommander ?</summary><p>Pas encore. Vous pouvez manifester votre intérêt sans engagement. Aucune précommande payante n'est ouverte à ce jour.</p></details></section>
-</main><footer><div><strong>⌂ FLOP<span>BOX</span></strong> <small>SMART HOME</small></div><p>© <span id="year"></span> FLOPBOX — Projet en développement. Visuels conceptuels non contractuels.</p><a href="mailto:contact@florian-pasquier.fr">Contact</a></footer>
-</body></html>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#accueil" aria-label="FLOPBOX accueil">
+        <div class="brand-icon">⌂</div>
+        <div class="brand-text">
+          <div class="brand-title">FLOP<span>BOX</span></div>
+          <div class="brand-sub">SMART HOME</div>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" aria-expanded="false" aria-label="Ouvrir le menu">☰</button>
+
+      <nav class="menu" aria-label="Navigation principale">
+        <a href="#accueil" class="active">Accueil</a>
+        <a href="#box">La box</a>
+        <a href="#fonctionnalites">Fonctionnalités</a>
+        <a href="#installation">Installation</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-outline" href="mailto:contact@florian-pasquier.fr?subject=FLOPBOX%20-%20Contact">✉ <span>Contact</span></a>
+        <a class="btn btn-primary" href="#attente">Rejoindre la liste d'attente</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="accueil">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow">LA DOMOTIQUE SIMPLIFIÉE</div>
+        <h1>Votre maison connectée.<br>Une seule box : <span>FLOPBOX.</span></h1>
+        <p>Centralisez, automatisez et pilotez tous vos objets connectés depuis une interface unique, locale, sécurisée et évolutive.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#box">➤ Découvrir la box</a>
+          <a class="btn btn-outline" href="#demonstration">▷ Voir la démo</a>
+        </div>
+
+        <div class="hero-checks">
+          <span>✓ Simple à installer</span>
+          <span>✓ Locale et sécurisée</span>
+          <span>✓ Évolutive et maintenable</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img class="hero-device" src="assets/hero-boitier.webp" alt="Boîtier FLOPBOX noir compact">
+        <div class="hero-inset">
+          <img src="assets/connectique.webp" alt="Ports USB-C et Ethernet du boîtier">
+          <div class="inset-labels">
+            <div>Alimentation<br><strong>USB-C (5 V)</strong></div>
+            <div>Réseau<br><strong>Ethernet (RJ45)</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fonctionnalites" class="container feature-grid">
+      <article class="feature-card"><div class="icon">◉</div><div><h3>Éclairage</h3><p>Contrôle et automatisation</p></div></article>
+      <article class="feature-card"><div class="icon">▤</div><div><h3>Volets</h3><p>Scénarios et horaires</p></div></article>
+      <article class="feature-card"><div class="icon">⌇</div><div><h3>Chauffage</h3><p>Confort et économies</p></div></article>
+      <article class="feature-card"><div class="icon">⬡</div><div><h3>Sécurité</h3><p>Surveillance et alertes</p></div></article>
+      <article class="feature-card"><div class="icon">◌</div><div><h3>Énergie</h3><p>Suivi de consommation</p></div></article>
+      <article class="feature-card"><div class="icon">✣</div><div><h3>Compatible</h3><p>Zigbee, Z-Wave, Matter, Wi-Fi</p></div></article>
+    </section>
+
+    <section id="installation" class="container split-section">
+      <div class="panel steps-panel">
+        <h2><span>FLOPBOX</span> en 3 étapes</h2>
+        <div class="steps-grid">
+          <article class="step-card">
+            <div class="step-header"><div class="step-badge">1</div><div><h3>Branchez la box</h3><p>Alimentation USB-C et câble Ethernet.</p></div></div>
+            <img src="assets/installation.webp" alt="Branchez la box FLOPBOX">
+          </article>
+          <article class="step-card step-center">
+            <div class="step-header"><div class="step-badge">2</div><div><h3>Ajoutez vos appareils</h3><p>Zigbee, Z-Wave, Matter ou Wi‑Fi.</p></div></div>
+            <div class="protocols">Ⓩ <span>◉</span> ✳ <span>⌁</span></div>
+          </article>
+          <article class="step-card step-center">
+            <div class="step-header"><div class="step-badge">3</div><div><h3>Pilotez votre maison</h3><p>Une interface unique pour tout contrôler.</p></div></div>
+            <div class="screen-illu">⌂<small>▭  ▭</small></div>
+          </article>
+        </div>
+      </div>
+
+      <div id="demonstration" class="panel demo-panel">
+        <img src="assets/dashboard.webp" alt="Aperçu du tableau de bord FLOPBOX">
+      </div>
+    </section>
+
+    <section class="container bottom-section">
+      <div id="box" class="panel hardware-panel">
+        <img src="assets/interieur.webp" alt="Intérieur conceptuel du boîtier FLOPBOX">
+        <div class="hardware-copy">
+          <h2>Une technologie puissante,<br>dans un boîtier discret</h2>
+          <ul>
+            <li>Raspberry Pi haute performance</li>
+            <li>Connectivité Zigbee et Z-Wave intégrée</li>
+            <li>Système local et indépendant du cloud</li>
+            <li>Maintenance distante sécurisée</li>
+            <li>Mises à jour et sauvegardes automatiques</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="attente" class="panel waitlist-panel">
+        <h2><span>✉</span> Soyez informé du lancement</h2>
+        <p>Rejoignez la liste d'attente et recevez en priorité les informations sur la disponibilité, les offres et les nouveautés FLOPBOX.</p>
+        <form class="waitlist-form" id="interest-form">
+          <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+          <button type="submit" class="btn btn-primary">Je m'inscris</button>
+        </form>
+        <div class="waitlist-note">◈ Aucun engagement. Vos données restent confidentielles.</div>
+        <div class="form-message" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="faq" class="container faq-section">
+      <h2>Questions fréquentes</h2>
+      <div class="faq-list">
+        <details open>
+          <summary>FLOPBOX est-elle déjà disponible ?</summary>
+          <p>FLOPBOX est en cours de développement. Les visuels du boîtier sont conceptuels et servent à présenter la vision du produit.</p>
+        </details>
+        <details>
+          <summary>Quels appareils seront compatibles ?</summary>
+          <p>Le prototype s'oriente vers Zigbee, Z-Wave, Matter et Wi‑Fi selon les équipements et intégrations disponibles.</p>
+        </details>
+        <details>
+          <summary>Faut-il Internet pour que cela fonctionne ?</summary>
+          <p>Les fonctions locales resteront prioritaires. Certaines intégrations cloud et la maintenance distante demanderont toutefois une connexion Internet.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>FLOP<span>BOX</span></strong>
+        <small>SMART HOME</small>
+      </div>
+      <p>© <span id="year"></span> FLOPBOX — Visuels conceptuels non contractuels.</p>
+      <a href="mailto:contact@florian-pasquier.fr">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
